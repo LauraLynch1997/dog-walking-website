@@ -91,6 +91,7 @@ p {
     background-image: url('../images/dog-hero-image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 35%;
 }
 
 .hero-content {
@@ -111,8 +112,13 @@ p {
     justify-content: flex-end;
 }
 
+.services{
+    background-color: #f9f9f9;
+    padding:96px 0;
+}
 .service-container {
     display: flex;
+    margin-bottom: 96px;
 }
 
 .service-sub-container {
@@ -122,3 +128,10 @@ p {
 .service-image {
     width: 100%;
 }
+
+.service-sub-container.text-container {
+    padding: 48px;
+    background-color: white;
+}
+
+
