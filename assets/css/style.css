@@ -111,3 +111,14 @@ p {
     justify-content: flex-end;
 }
 
+.service-container {
+    display: flex;
+}
+
+.service-sub-container {
+    width: 50%;
+}
+
+.service-image {
+    width: 100%;
+}
