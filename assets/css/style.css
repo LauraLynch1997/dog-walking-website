@@ -255,3 +255,17 @@ form .button {
 .form-section h2 {
     margin-bottom: 24px;
 }
+
+.home-services-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-services-sub-container {
+    width: 31%;
+}
+
+.home-services {
+    padding: 96px 0;
+    background-color: #f9f9f9;
+}
