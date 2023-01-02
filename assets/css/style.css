@@ -69,16 +69,16 @@ p {
     justify-content: space-between;
 }
 
-.header-parent ul {
+.header-parent nav {
     display: flex;
     column-gap: 16px;
 }
 
-.header-parent ul a {
+.header-parent nav a {
     text-decoration: none;
 }
 
-.header-parent ul a:hover {
+.header-parent nav a:hover {
     text-decoration: underline;
 }
 
