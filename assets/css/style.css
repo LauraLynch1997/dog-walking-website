@@ -75,7 +75,7 @@ a {
 .header-parent {
     display: flex;
     justify-content: space-between;
-    padding: 16px 0;
+    padding: 16px;
 }
 
 .header-parent nav {
@@ -146,6 +146,13 @@ a {
 .service-image {
     width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+    .service-image {
+        height: 100%;
+    object-fit: cover;
+    }    
+  }
 
 .service-sub-container.text-container {
     padding: 48px;
