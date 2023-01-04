@@ -131,6 +131,7 @@ a {
     padding: 16px;
 }
 
+
 .hero-content h1, .hero-content p {
     color: white;
     margin-bottom: 16px;
@@ -142,6 +143,18 @@ a {
     align-items: center;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 425px) {
+    .hero-content {
+        width: 100%;
+    }    
+    .hero .container {
+        align-items: flex-end;
+    }
+    .hero {
+        background-position: 25% 35%;
+    }
+  }
 
 .services{
     background-color: #f9f9f9;
