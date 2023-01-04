@@ -96,6 +96,19 @@ a {
     align-items: center;
 }
 
+@media screen and (max-width: 425px) {
+    .nav-container {
+        justify-content: center;
+        margin-top: 8px;
+    }
+    .header-parent {
+        flex-direction: column;
+    }
+    .logo-container{
+        justify-content: center;
+    }
+  }
+
 .logo-container {
     display: flex;
     align-items: center;
