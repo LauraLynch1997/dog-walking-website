@@ -30,6 +30,7 @@ h3 {
     font-weight: 400;
 }
 
+
 h4 {
     font-size: 1.5635rem;
     font-weight: 400;
@@ -67,9 +68,7 @@ a {
     display: inline-block;
 }
 
-.text-container a {
-    float: right;
-}
+
 
 .list-unstyled {
     list-style: none;
@@ -218,6 +217,45 @@ a {
     box-sizing: border-box;
 }
 
+.about-mobile-header {
+    display: none;
+}
+
+.text-container a {
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .text-container a {
+        width:100%;
+        text-align: center;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-sub-container {
+        width: 100%;
+    }
+    
+    .about-sub-container.text-container {
+        width: 100%;
+        padding: 0;
+        margin-top: 32px;
+    }
+
+    .about-mobile-header {
+        display: block;
+    }
+
+    .about-desktop-header {
+        display: none;
+    }
+
+  }
+
 footer {
     background-color: #0FA3B1;
     color: white;
@@ -256,6 +294,26 @@ footer i {
     margin-right: 8px;
 }
 
+@media screen and (max-width: 600px) {
+    .footer-container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .footer-links {
+        width: 49.5%;
+    }
+    .footer-links:last-child{
+        width:100%;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .footer-links {
+        width: 100%;
+    }
+}
 .contact-container {
     display: flex;
     margin-bottom: 96px;
