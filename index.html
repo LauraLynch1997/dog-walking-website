@@ -19,9 +19,9 @@
             </div>
             <div class="nav-container">
                 <nav>
-                    <a href="/index.html">Home</a>
-                    <a href="/services.html">Services</a>
-                    <a href="/contact.html">Contact</a>
+                    <a href="./index.html">Home</a>
+                    <a href="./services.html">Services</a>
+                    <a href="./contact.html">Contact</a>
                 </nav>
             </div>
         </div>
@@ -31,7 +31,7 @@
             <div class="hero-content">
                 <h1>Dog Walking Services</h1>
                 <p>Laois, Offaly and Westmeath</p>
-                <a href="/contact.html" class="button">Enquire Now</a>
+                <a href="./contact.html" class="button">Enquire Now</a>
             </div>
         </div>
     </section>
@@ -40,19 +40,19 @@
             <h2>Services</h2>
             <div class="home-services-container">
                 <div class="home-services-sub-container">
-                    <a href="/services.html">
+                    <a href="./services.html">
                         <img class="service-image" src="assets/images/dog-lead-image.jpg">
                         <h4>Individual Dog Walking</h4> 
                     </a>
                 </div>
                 <div class="home-services-sub-container">
-                    <a href="/services.html">
+                    <a href="./services.html">
                         <img class="service-image" src="assets/images/group-dog-image.jpg">
                         <h4>Group Dog Walking</h4>
                     </a>
                 </div>
                 <div  class="home-services-sub-container">
-                    <a href="/services.html">
+                    <a href="./services.html">
                         <img class="service-image" src="assets/images/pet-sitting-image.jpg">
                         <h4>Pet Sitting</h4>
                     </a>
@@ -72,7 +72,7 @@
                     <p>Midlands Muttz was set up in 2022 by a group of veterinary nurses who wanted to use their backgrounds in animal behaviour
                         and science to facilitate pet owners in the midlands who needed their precious pets taken care of while they returned to work post-covid.
                         The team is currently made up of 30 walkers/pet-sitters, with further recruitment taking place as the service expands.   </p>
-                    <a class="button" href="/contact.html">Get In Touch</a>
+                    <a class="button" href="./contact.html">Get In Touch</a>
                 </div>
             </div>
         </div>
@@ -119,25 +119,25 @@
         
                         <label for="pname">Pet's Name(s)</label>
                         <input class="text-input" type="text" id="pname" name="pet_name" required>
-        
-                        <p>
-                            Service(s) Required
-                        </p>
-                        <input id="individual" type="radio" name="service_required" value="individual" required>
-                        <label for="individual">Individual Walks</label>
-                        
-                        <br>
-                        <input id="group" type="radio" name="serviced_required" value="group" required>
-                        <label for="group">Group Walks</label>
-                        
-                        <br>
-                        <input id="pet-sitting" type="radio" name="service_required" value="pet-sitting" required>
-                        <label for="pet-sitting">Pet Sitting</label>
-        
-                        <br>
-                        <input id="multiple" type="radio" name="service_required" value="multiple" required>
-                        <label for="multiple">Multiple</label>
-                        
+                        <fieldset>
+                            <legend>
+                                Service(s) Required
+                            </legend>
+                            <input id="individual" type="radio" name="service_required" value="individual" required>
+                            <label for="individual">Individual Walks</label>
+                            
+                            <br>
+                            <input id="group" type="radio" name="service_required" value="group" required>
+                            <label for="group">Group Walks</label>
+                            
+                            <br>
+                            <input id="pet-sitting" type="radio" name="service_required" value="pet-sitting" required>
+                            <label for="pet-sitting">Pet Sitting</label>
+            
+                            <br>
+                            <input id="multiple" type="radio" name="service_required" value="multiple" required>
+                            <label for="multiple">Multiple</label>
+                        </fieldset>
                         <br>
                         <input class="button" type="submit" value="Submit Request">
                     </form>

@@ -19,9 +19,9 @@
             </div>
             <div class="nav-container">
                 <nav>
-                    <a href="/index.html">Home</a>
-                    <a href="/services.html">Services</a>
-                    <a href="/contact.html">Contact</a>
+                    <a href="./index.html">Home</a>
+                    <a href="./services.html">Services</a>
+                    <a href="./contact.html">Contact</a>
                 </nav>
             </div>
         </div>
@@ -69,25 +69,25 @@
                         <label for="pname">Pet's Name(s)</label>
                         <input class="text-input" type="text" id="pname" name="pet_name" required>
         
-                        <p>
-                            Service(s) Required
-                        </p>
-                        <input id="individual" type="radio" name="service_required" value="individual" required>
-                        <label for="individual">Individual Walks</label>
-                        
-                        <br>
-                        <input id="group" type="radio" name="serviced_required" value="group" required>
-                        <label for="group">Group Walks</label>
-                        
-                        <br>
-                        <input id="pet-sitting" type="radio" name="service_required" value="pet-sitting" required>
-                        <label for="pet-sitting">Pet Sitting</label>
-        
-                        <br>
-                        <input id="multiple" type="radio" name="service_required" value="multiple" required>
-                        <label for="multiple">Multiple</label>
-                        
-                        <br>
+                        <fieldset>
+                            <legend>
+                                Service(s) Required
+                            </legend>
+                            <input id="individual" type="radio" name="service_required" value="individual" required>
+                            <label for="individual">Individual Walks</label>
+                            
+                            <br>
+                            <input id="group" type="radio" name="service_required" value="group" required>
+                            <label for="group">Group Walks</label>
+                            
+                            <br>
+                            <input id="pet-sitting" type="radio" name="service_required" value="pet-sitting" required>
+                            <label for="pet-sitting">Pet Sitting</label>
+            
+                            <br>
+                            <input id="multiple" type="radio" name="service_required" value="multiple" required>
+                            <label for="multiple">Multiple</label>
+                        </fieldset>
                         <input class="button" type="submit" value="Submit Request">
                     </form>
                 </div>
