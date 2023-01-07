@@ -446,3 +446,7 @@ form .button {
         margin-top: 8px;
     }
 }
+
+.thank-you{
+    min-height: 75vh;
+}
