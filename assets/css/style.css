@@ -68,8 +68,19 @@ a {
     display: inline-block;
 }
 
+section{
+    padding: 96px 0;
+}
 
+section.hero{
+    padding: 0;
+}
 
+@media screen and (max-width: 768px) {
+    section{
+        padding: 32px 0;
+    }
+}
 .list-unstyled {
     list-style: none;
     padding-left: 0;
@@ -167,7 +178,6 @@ a {
 
 .services{
     background-color: #f9f9f9;
-    padding:96px 0;
 }
 .service-container {
     display: flex;
@@ -186,7 +196,17 @@ a {
     .service-image {
         height: 100%;
     object-fit: cover;
-    }    
+    }
+    .service-container {
+       flex-direction: column;
+       margin-bottom: 32px;
+    }
+    
+    .service-sub-container {
+        width: 100%;
+        background-color: white;
+    }
+
   }
 
 .service-sub-container.text-container {
@@ -196,11 +216,9 @@ a {
 
 .about {
     background-color: white;
-    padding:96px 0;
 }
 .about-container {
     display: flex;
-    margin-bottom: 96px;
 }
 
 .about-sub-container {
@@ -316,7 +334,6 @@ footer i {
 }
 .contact-container {
     display: flex;
-    margin-bottom: 96px;
 }
 
 .contact-sub-container {
@@ -331,7 +348,6 @@ footer i {
 
 .form-section {
     background-color: white;
-    padding:96px 0;
 }
 
 
@@ -389,9 +405,10 @@ form .button {
     .contact-container {
         flex-direction: column;
     }
-    
-    .contact-sub-container.text-container {
+    .contact-sub-container{
         width: 100%;
+    }
+    .contact-sub-container.text-container {
         padding: 0;
         margin-top: 32px;
     }
@@ -411,7 +428,6 @@ form .button {
 }
 
 .home-services {
-    padding: 96px 0;
     background-color: #f9f9f9;
 }
 
