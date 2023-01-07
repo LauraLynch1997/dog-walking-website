@@ -104,7 +104,9 @@ section.hero{
 .header-parent nav a:hover {
     text-decoration: underline;
 }
-
+ .header-parent h4 a{
+    color:#0FA3B1;
+ }
 .nav-container {
     display: flex;
     align-items: center;
