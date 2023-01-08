@@ -46,18 +46,24 @@ p {
     font-weight: 400;
     font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 1rem;
+    line-height: 1.5em;
 }
 
 a {
     text-decoration: none;
+    color: #181D27;
 }
+a:visited { text-decoration: none; color:inherit; }
+a:hover { text-decoration: underline; color:#181D27; }
+a:focus { text-decoration: none; color:#181D27; }
+a:hover, a:active { text-decoration: none; color:#181D27 }
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
     padding:0 16px;
 }
-.button {
+a.button, .button{
     padding: 15px 30px;
     color: white;
     background-color: #FF858D;
@@ -97,13 +103,6 @@ section.hero{
     column-gap: 16px;
 }
 
-.header-parent nav a {
-    text-decoration: none;
-}
-
-.header-parent nav a:hover {
-    text-decoration: underline;
-}
  .header-parent h4 a{
     color:#0FA3B1;
  }
@@ -302,14 +301,6 @@ footer li {
     margin: 8px 0;
 }
 
-footer a {
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
 footer i {
     margin-right: 8px;
 }
@@ -379,15 +370,6 @@ form .button {
 
 .form-section li {
     margin: 8px 0;
-}
-
-.form-section a {
-    text-decoration: none;
-    color: #181D27;
-}
-
-.form-section a:hover {
-    text-decoration: underline;
 }
 
 .form-section i {
