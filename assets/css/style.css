@@ -191,13 +191,12 @@ section.hero{
 
 .service-image {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
 }
 
 @media screen and (max-width: 1024px) {
-    .service-image {
-        height: 100%;
-    object-fit: cover;
-    }
     .service-container {
        flex-direction: column;
        margin-bottom: 32px;
@@ -230,6 +229,7 @@ section.hero{
     width: 100%;
 }
 
+
 .about-sub-container.text-container {
     padding-left: 48px;
     background-color: white;
@@ -244,7 +244,16 @@ section.hero{
     margin-top: 16px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
+    .about-image-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
 
     .text-container a {
         width:100%;
