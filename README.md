@@ -14,7 +14,6 @@ In this section, you should go over the different parts of your project, and des
 
     - Contains a picture of a happy dog with a text overlay displaying the services offered and the locations in which they are offered. 
 
-    ![Screenshot of Hero Image](link to image)
 
 * The Navigation Bar
 
@@ -22,7 +21,7 @@ In this section, you should go over the different parts of your project, and des
 
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-    ![Screenshot of Nav Bar](link to image)
+    ![Hero-Image](./assets/read-me-images/home-desktop-hero.png)
 
 * Services Section
 
@@ -30,7 +29,7 @@ In this section, you should go over the different parts of your project, and des
 
     - Images and text under each service are clickable and will link to the services page which will provide the user with further details on the services offerred.
 
-    ![Screenshot of Services Section](link to image)
+    ![Home-Services](./assets/read-me-images/home-desktop-services.png)
 
 * About Section
 
@@ -38,7 +37,7 @@ In this section, you should go over the different parts of your project, and des
 
     - This section will be updated regularly to include any new information on staff and locations serviced to invite new users to use the service that may not have been available to them perviously.
 
-    ![Screenshot of about Section](link to image)
+    ![Home-About](./assets/read-me-images/home-desktop-about.png)
 
 * Contact Section
     
@@ -50,7 +49,7 @@ In this section, you should go over the different parts of your project, and des
 
     - The site's contact details and social media links all in the same section to provide the user with maximum contact options.
 
-    ![Screenshot of Contact Section](link to image)
+    ![Contact-Form](./assets/read-me-images/contact-tablet.png)
 
 * Footer
 
@@ -62,19 +61,19 @@ In this section, you should go over the different parts of your project, and des
 
     - This section also contains a blurb about Midlands Mutts, which will provide the user with precise information on who Midlands Mutts are and what they do.  
 
-    ![Screenshot of Footer Section](link to image)
+    ![Footer](./assets/read-me-images/footer-desktop.png)
 
 * Services Page
 
     - The services page will provide the user with a full detailed description of the services offered, enabling them to decide which service suits them best.
 
-    ![Screenshot of Services Page](link to image)
+    ![Services-Page](./assets/read-me-images/services-desktop-services.png)
 
 * Contact Page
 
     - A page containg just the contact details and contact form, providing users will all the possible contact options they could have in one place.
 
-    ![Screenshot of Contact Page](link to image)
+    ![Contact-Page](./assets/read-me-images/contact-desktop.png)
 
 * Thank You Page
 
@@ -83,9 +82,8 @@ In this section, you should go over the different parts of your project, and des
 
     - It also shows a message encouraging users to use specific contact details for any pet-emergencies. 
 
-    ![Screenshot of Thank You Page ](link to image)
+    ![Thank-You-Page](./assets/read-me-images/thank-you-desktop.png)
 
-    - 
 ### Potential Features to Add
 
 * A testimonial section with reviews from other useres of the site to encourage new users to contact Midlands Mutts.
