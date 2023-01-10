@@ -88,29 +88,69 @@ In this section, you should go over the different parts of your project, and des
 
 * A testimonial section with reviews from other useres of the site to encourage new users to contact Midlands Mutts.
 
+## Design
+
+### Website Comparisons
+
+The following websites with the same theme as Midlands Mutts were examined for layout and content ideas:
+
+- [Sit Stay Play](https://www.sitstayplayla.com/)
+- [Manymutts](https://manymutts.com/)
+- [Trusted House Sitters](https://www.trustedhousesitters.com/)
+
+### Images
+
+All images were sourced from [Unsplash](https://unsplash.com/) to add high-quality images that are relevant to each section.
+
+### Fonts
+
+Fonts were chosen using [Google Fonts](https://fonts.google.com/)
+
+Montserrat was chosen as the main font, with helvetica and sans-serif set as the alternatives.
+These fonts were chosen due to their popularity amongst a variety of websites.
+
+### Colour Scheme
+
+Colour scheme was selected using [Coolors](https://coolors.co/)
+
+The 5 colours used were:
+ - `#FFFFFF`
+ - `#FF858D`
+ - `#0FA3B1`
+ - `#F9F9F9`
+ - `#181D27`
+
+ ### Wireframes
+
+ - Home page wireframe - view
+ - Services page wireframe - view
+ - Contact page wireframe - view
+ - Mobile wireframe - view
+
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-DELETE AFTERWARDS
-
-### Validator Testing
+### Valadator Testing
 
 * HTML
-    -No errors were returned when passing through the official W3C validator CLICKABLE VALIDATORS
+    - HTML was tested with [W3C Markup Validation Service](https://validator.w3.org/)
+    - Initial testing showed that alt attributes were missing from image tags.
+    - Once the alt attributes were added, final testing returned 0 errors.
 
 * CSS
-    - No errors were found when passing through the official (Jigsaw) validator CLICKABLE VALIDATORS
+    - CSS was tested with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+    - 0 errors returned.
 
-### Unfixed Bugs
+### Browser Display
 
-    You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+The completed site displays correctly on Google Chrome, Microsoft Edge and Safari browsers.
+
+### Screen Sizes
+
+The completed site displays correctly on a variety of screen sizes, including decktop, tablet, iphone and Samsung phones.
+[screenshot on desktop]()
+[screenshot on tablet]()
+[screenshot on mobile]()
+
 
 ## Deployment
 
