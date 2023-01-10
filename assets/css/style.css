@@ -443,3 +443,15 @@ form .button {
 .thank-you{
     min-height: 75vh;
 }
+
+.form-section.thank-you .contact-sub-container.text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .form-section.thank-you .contact-container{
+        flex-direction: column-reverse;
+    }
+}
