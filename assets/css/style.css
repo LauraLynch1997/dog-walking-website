@@ -1,3 +1,4 @@
+/* global css*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap'); 
 
 body {
@@ -9,6 +10,7 @@ body {
     box-sizing: border-box;
 }
 
+/* text styles*/
 h1, h2, h3, h4, h5, h6 {
    color: #0FA3B1;
    font-family: 'Montserrat', Helvetica, sans-serif;
@@ -92,6 +94,7 @@ section.hero{
     padding-left: 0;
 }
 
+/* Hero-image and container styles */
 .header-parent {
     display: flex;
     justify-content: space-between;
@@ -177,6 +180,8 @@ section.hero{
     }
   }
 
+/* Home services page styles*/
+
 .services{
     background-color: #f9f9f9;
 }
@@ -214,6 +219,8 @@ section.hero{
     background-color: white;
 }
 
+/*About section styles */
+
 .about {
     background-color: white;
 }
@@ -228,7 +235,6 @@ section.hero{
 .about-image {
     width: 100%;
 }
-
 
 .about-sub-container.text-container {
     padding-left: 48px;
@@ -284,6 +290,8 @@ section.hero{
 
   }
 
+ /* Footer styles*/ 
+
 footer {
     background-color: #0FA3B1;
     color: white;
@@ -334,6 +342,9 @@ footer i {
         width: 100%;
     }
 }
+
+/*Contact section styles */
+
 .contact-container {
     display: flex;
 }
@@ -347,6 +358,8 @@ footer i {
     background-color: white;
     box-sizing: border-box;
 }
+
+/* Form styles*/
 
 .form-section {
     background-color: white;
@@ -407,6 +420,7 @@ form .button {
     }
   }
 
+  /* Home-page services styles*/
 .home-services-container {
     display: flex;
     justify-content: space-between;
@@ -440,6 +454,7 @@ form .button {
     }
 }
 
+/* Thank you page styles*/
 .thank-you{
     min-height: 75vh;
 }
