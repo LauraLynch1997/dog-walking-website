@@ -153,9 +153,9 @@ The completed site displays correctly on Google Chrome, Microsoft Edge and Safar
 ### Screen Sizes
 
 The completed site displays correctly on a variety of screen sizes, including decktop, tablet, iphone and Samsung phones.
-[screenshot on desktop]()
-[screenshot on tablet]()
-[screenshot on mobile]()
+[Screenshot on desktop](./assets/read-me-images/home-desktop-about.png)
+[screenshot on tablet](./assets/read-me-images/home-tablet-hero.png)
+[screenshot on mobile](./assets/read-me-images/home-mobile.png)
 
 
 ## Deployment
