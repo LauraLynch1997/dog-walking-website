@@ -153,10 +153,50 @@ The completed site displays correctly on Google Chrome, Microsoft Edge and Safar
 ### Screen Sizes
 
 The completed site displays correctly on a variety of screen sizes, including decktop, tablet, iphone and Samsung phones.
-[Screenshot on desktop](./assets/read-me-images/home-desktop-about.png)
-[screenshot on tablet](./assets/read-me-images/home-tablet-hero.png)
-[screenshot on mobile](./assets/read-me-images/home-mobile.png)
+- [Desktop Display](./assets/read-me-images/home-desktop-about.png)
+- [Tablet Display](./assets/read-me-images/home-tablet-hero.png)
+- [Mobile Display](./assets/read-me-images/home-mobile.png)
 
+## Technologies Used
+
+### Languages Used
+* HTML5
+* CSS3
+
+### Frameworks, Libraries & Programs Used
+
+Bootstrap 4.4.1:
+Bootstrap was used to assist with the responsiveness and styling of the website.
+Hover.css:
+Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+Google Fonts:
+Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+Font Awesome:
+Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+jQuery:
+jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+Git
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+GitHub:
+GitHub is used to store the projects code after being pushed from Git.
+Photoshop:
+Photoshop was used to create the logo, resizing images and editing photos for the website.
+Balsamiq:
+Balsamiq was used to create the wireframes during the design process.
+
+Hover.css
+Google Fonts
+- Used to import selected fonts into style.css file.
+Font Awesome
+- Used to add icons to contact info and social media links.
+Git
+Github
+Balsamiq
+- Used to create wireframes for site prior to coding.
+Unsplash
+- Used to select high-quality, relevant images for the site that were free from copyright.
+Coolers
+- Used to select an aesthetically pleasing colour pallet used throughout the site.
 
 ## Deployment
 
