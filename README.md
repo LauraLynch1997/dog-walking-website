@@ -140,6 +140,12 @@ The 5 colours used were:
     - CSS was tested with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
     - 0 errors returned.
 
+* Lighthouse
+    - Initial testing in lighthouse showed poor performance of 46 due to image dimensions.
+    - Once dimensions were reduced, performance improved dramatically. 
+    - [Lighthouse results](./assets/read-me-images/Lighthouse%20Report.png)
+
+
 ### Browser Display
 
 The completed site displays correctly on Google Chrome, Microsoft Edge and Safari browsers.
