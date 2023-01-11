@@ -165,38 +165,21 @@ The completed site displays correctly on a variety of screen sizes, including de
 
 ### Frameworks, Libraries & Programs Used
 
-Bootstrap 4.4.1:
-Bootstrap was used to assist with the responsiveness and styling of the website.
-Hover.css:
-Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-Google Fonts:
-Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-Font Awesome:
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-jQuery:
-jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-Git
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-GitHub:
-GitHub is used to store the projects code after being pushed from Git.
-Photoshop:
-Photoshop was used to create the logo, resizing images and editing photos for the website.
-Balsamiq:
-Balsamiq was used to create the wireframes during the design process.
-
-Hover.css
-Google Fonts
-- Used to import selected fonts into style.css file.
-Font Awesome
-- Used to add icons to contact info and social media links.
-Git
-Github
-Balsamiq
+1. Balsamiq
 - Used to create wireframes for site prior to coding.
-Unsplash
-- Used to select high-quality, relevant images for the site that were free from copyright.
-Coolers
+2. Google Fonts
+- Used to import selected fonts into style.css file.
+3. Font Awesome
+- Used to add icons to contact info and social media links.
+4. Coolers
 - Used to select an aesthetically pleasing colour pallet used throughout the site.
+5. Git
+- Used for version control.
+6. Github
+- Used to store the site's code once pushed from Git.
+7. Unsplash
+- Used to select high-quality, relevant images for the site that were free from copyright.
+
 
 ## Deployment
 
