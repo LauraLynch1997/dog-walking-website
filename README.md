@@ -122,10 +122,10 @@ The 5 colours used were:
 
  ### Wireframes
 
- - Home page wireframe - view
- - Services page wireframe - view
- - Contact page wireframe - view
- - Mobile wireframe - view
+ - ![Home Page Wireframe](./assets/images/wireframe-images/Desktop%20Homepage%20.png)
+ - ![Services Page Wireframe](/assets/images/wireframe-images/Desktop%20Services%20Page.png)
+ - ![Contact Page Wireframe](./assets/images/wireframe-images/Contact%20Section.png)
+ - ![Mobile Wireframe](./assets/images/wireframe-images/Service%20Section%20Mobile.png)
 
 ## Testing
 
