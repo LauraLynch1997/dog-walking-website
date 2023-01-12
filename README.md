@@ -1,12 +1,9 @@
 # Midlands Mutts
 
-Midlands Mutts is a site providing information on dog-walking and pet-sitting services in the midlands area of Ireland. The site will be targeted towards pet-owners in the Midlands who require dog-walking and pet-sitting services, with the aim of them choosing this particular site.
+Midlands Mutts is a site that provides information on dog-walking and pet-sitting services in the midlands area of Ireland. The site targets pet-owners in the Midlands who require dog-walking and pet-sitting services. The aim of the site is for these owners to get in touch via the contact form.
 
- Midlands Mutts gives detailed information on the specific services offered, enabling the user to select the most appropriate service(s) for their pet. It will provide users with information on the service itself via the about section and it will enable the user to contact the page for more information via the contact form.
-
+ Midlands Mutts gives detailed information on the specific services offered, enabling the user to select the most appropriate service(s) for their pet and easily get in touch.
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. (DELETE AFTERWARDS)
 
 ### Existing Features
 
@@ -17,7 +14,7 @@ In this section, you should go over the different parts of your project, and des
 
 * The Navigation Bar
 
-    - Fully responsive navigation bar with clickable links to the logo, home page, services page and contact page. It's css remains the same for every page to allow for easy navigation.
+    - Fully responsive navigation bar with clickable links to the home page, services page and contact page. It is at the top of every page to allow for easy navigation.
 
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
@@ -47,7 +44,7 @@ In this section, you should go over the different parts of your project, and des
 
     - Submission of the form will direct the user to a thank-you page.
 
-    - The site's contact details and social media links all in the same section to provide the user with maximum contact options.
+    - The site's contact details and social media links are all in the same section to provide the user with maximum contact options.
 
     ![Contact-Form](./assets/read-me-images/contact-tablet.png)
 
@@ -71,7 +68,7 @@ In this section, you should go over the different parts of your project, and des
 
 * Contact Page
 
-    - A page containg just the contact details and contact form, providing users will all the possible contact options they could have in one place.
+    - A page containing just the contact details and contact form, providing users will all the possible contact options they could have in one place.
 
     ![Contact-Page](./assets/read-me-images/contact-desktop.png)
 
@@ -86,7 +83,7 @@ In this section, you should go over the different parts of your project, and des
 
 ### Potential Features to Add
 
-* A testimonial section with reviews from other useres of the site to encourage new users to contact Midlands Mutts.
+* A testimonial section with reviews from past customers to encourage new users to contact Midlands Mutts.
 
 ## Design
 
@@ -179,12 +176,11 @@ The completed site displays correctly on a variety of screen sizes, including de
 - Used to store the site's code once pushed from Git.
 7. Unsplash
 - Used to select high-quality, relevant images for the site that were free from copyright.
-
+8. ImageOptim
+- Used to compress the sites images to improve page speed.
 
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 * The site was deployed to GitHub pages as follows:
 - Select settings in Github repository.
@@ -201,7 +197,6 @@ The live link can be found here - https://lauralynch1997.github.io/dog-walking-w
 ### Content
 
 * The Contact Form's code was sourced from the Love Running project.
-* The Nav bar's code was sourced from the Love Running project.
 * All text content for the about us and services section was written by the developer.
 * The steps in the Deployment section of this README.md file was sourced from the [Code Institute Sample ReadMe](https://github.com/Code-Institute-Solutions/SampleREADME)
 
@@ -214,6 +209,6 @@ The live link can be found here - https://lauralynch1997.github.io/dog-walking-w
 
 ## Acknowledgements
 
-* My Mentor Martina for all her help and support.
+* My Mentors Guido and Martina for all their help and support.
 * My fellow classmates for collaborative problem-solving.
 
