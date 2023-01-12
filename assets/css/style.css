@@ -1,4 +1,5 @@
 /* global css*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap'); 
 
 body {
@@ -11,6 +12,7 @@ body {
 }
 
 /* text styles*/
+
 h1, h2, h3, h4, h5, h6 {
    color: #0FA3B1;
    font-family: 'Montserrat', Helvetica, sans-serif;
@@ -84,8 +86,6 @@ section.hero{
     padding: 0;
 }
 
-
-
 .list-unstyled {
     list-style: none;
     padding-left: 0;
@@ -133,7 +133,6 @@ section.hero{
     padding: 16px;
 }
 
-
 .hero-content h1, .hero-content p {
     color: white;
     margin-bottom: 16px;
@@ -166,7 +165,6 @@ section.hero{
     object-fit: cover;
     
 }
-
 
 .service-sub-container.text-container {
     padding: 48px;
@@ -301,6 +299,7 @@ form .button {
 }
 
   /* Home-page services styles*/
+
 .home-services-container {
     display: flex;
     justify-content: space-between;
@@ -319,6 +318,7 @@ form .button {
 }
 
 /* Thank you page styles*/
+
 .thank-you{
     min-height: 75vh;
 }
