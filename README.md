@@ -181,6 +181,7 @@ The completed site displays correctly on a variety of screen sizes, including de
 - Used to select high-quality, relevant images for the site that were free from copyright.
 
 
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
@@ -200,11 +201,12 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content
 
-* 
-* 
-* 
+* The Contact Form's code was sourced from the Love Running project.
+* The Nav bar's code was sourced from the Love Running project.
+* All text content for the about us and services section was written by the developer.
 
 ### Media
 
-* 
-* 
+* All images used were from [Unsplash](unsplash.com)
+* All icons used were from [FontAwesome](fontawesome.com)
+* Colour scheme was selected using [Coolors](coolors.co)
