@@ -143,7 +143,7 @@ The 5 colours used were:
 * Lighthouse
     - Initial testing in lighthouse showed poor performance of 46 due to image dimensions.
     - Once dimensions were reduced, performance improved dramatically. 
-    - [Lighthouse results](./assets/read-me-images/Lighthouse%20Report.png)
+    - [Lighthouse results](./assets/read-me-images/Lighthouse-report-1.png)
 
 
 ### Browser Display
@@ -186,27 +186,34 @@ The completed site displays correctly on a variety of screen sizes, including de
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* The site was deployed to GitHub pages as follows:
+- Select settings in Github repository.
+- Select pages from the sidebar.
+- From the drop-down menu below the Source heading, select 'Deploy from a branch'.
+- From the drop-down menu below the Branch heading, select main branch. Then select root from the folder drop-down menu.
+- Select Save.
+- The page will then show a ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://lauralynch1997.github.io/dog-walking-website/
 
 ## Credits
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 ### Content
 
 * The Contact Form's code was sourced from the Love Running project.
 * The Nav bar's code was sourced from the Love Running project.
 * All text content for the about us and services section was written by the developer.
+* The steps in the Deployment section of this README.md file was sourced from the [Code Institute Sample ReadMe](https://github.com/Code-Institute-Solutions/SampleREADME)
 
 ### Media
 
 * All images used were from [Unsplash](unsplash.com)
-* All icons used were from [FontAwesome](fontawesome.com)
+* All icons used were from [Font Awesome](fontawesome.com)
 * Colour scheme was selected using [Coolors](coolors.co)
+* [Flexbox Froggy](https://flexboxfroggy.com/) was used to learn and impliment flex styling in the style.css file.
+
+## Acknowledgements
+
+* My Mentor Martina for all her help and support.
+* My fellow classmates for collaborative problem-solving.
+
