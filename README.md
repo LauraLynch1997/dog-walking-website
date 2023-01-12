@@ -129,7 +129,7 @@ The 5 colours used were:
 
 ## Testing
 
-### Valadator Testing
+### Validator Testing
 
 * HTML
     - HTML was tested with [W3C Markup Validation Service](https://validator.w3.org/)
